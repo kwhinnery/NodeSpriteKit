@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A4D0DD31828AF7B00947C66 /* NSKUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4D0DD21828AF7B00947C66 /* NSKUtils.m */; };
+		0A4D0DD61828B13400947C66 /* NSKLabelNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4D0DD51828B13400947C66 /* NSKLabelNode.m */; };
+		0A4D0DD91828B63E00947C66 /* NSKSpriteNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4D0DD81828B63E00947C66 /* NSKSpriteNode.m */; };
+		0A4D0DDC182A60FB00947C66 /* bootstrap.js in Resources */ = {isa = PBXBuildFile; fileRef = 0A4D0DDA182A60E100947C66 /* bootstrap.js */; };
+		0A632B4618289638004FCC78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A632B4518289638004FCC78 /* Foundation.framework */; };
+		0A632B4818289638004FCC78 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A632B4718289638004FCC78 /* CoreGraphics.framework */; };
+		0A632B4A18289638004FCC78 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A632B4918289638004FCC78 /* UIKit.framework */; };
+		0A632B5018289638004FCC78 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A632B4E18289638004FCC78 /* InfoPlist.strings */; };
+		0A632B5218289638004FCC78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A632B5118289638004FCC78 /* main.m */; };
+		0A632B5618289638004FCC78 /* NSKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A632B5518289638004FCC78 /* NSKAppDelegate.m */; };
+		0A632B5818289638004FCC78 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A632B5718289638004FCC78 /* Images.xcassets */; };
+		0A632B5F18289638004FCC78 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A632B5E18289638004FCC78 /* XCTest.framework */; };
+		0A632B6018289638004FCC78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A632B4518289638004FCC78 /* Foundation.framework */; };
+		0A632B6118289638004FCC78 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A632B4918289638004FCC78 /* UIKit.framework */; };
+		0A632B6918289638004FCC78 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A632B6718289638004FCC78 /* InfoPlist.strings */; };
+		0A632B6B18289638004FCC78 /* NodeSpriteKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A632B6A18289638004FCC78 /* NodeSpriteKitTests.m */; };
+		0A632B76182898EE004FCC78 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A632B75182898EE004FCC78 /* SpriteKit.framework */; };
+		0A632B78182898FA004FCC78 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A632B77182898FA004FCC78 /* JavaScriptCore.framework */; };
+		0A632B7A18289945004FCC78 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A632B7918289945004FCC78 /* Spaceship.png */; };
+		0A632B7E1828997C004FCC78 /* NSKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A632B7D1828997C004FCC78 /* NSKViewController.m */; };
+		0A632B8418289F40004FCC78 /* NSKConsole.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A632B8318289F40004FCC78 /* NSKConsole.m */; };
+		0A632B861828A3C3004FCC78 /* gamebundle.js in Resources */ = {isa = PBXBuildFile; fileRef = 0A632B7F18289D40004FCC78 /* gamebundle.js */; };
+		0A632B891828A5A7004FCC78 /* NSKScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A632B881828A5A7004FCC78 /* NSKScene.m */; };
+		47B6B5FA594D47ACAF70AA10 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF07F4AA9AEB4B29AF26A51F /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A632B6218289638004FCC78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A632B3A18289637004FCC78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A632B4118289638004FCC78;
+			remoteInfo = NodeSpriteKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A4D0DD11828AF7B00947C66 /* NSKUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSKUtils.h; sourceTree = "<group>"; };
+		0A4D0DD21828AF7B00947C66 /* NSKUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSKUtils.m; sourceTree = "<group>"; };
+		0A4D0DD41828B13400947C66 /* NSKLabelNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSKLabelNode.h; sourceTree = "<group>"; };
+		0A4D0DD51828B13400947C66 /* NSKLabelNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSKLabelNode.m; sourceTree = "<group>"; };
+		0A4D0DD71828B63E00947C66 /* NSKSpriteNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSKSpriteNode.h; sourceTree = "<group>"; };
+		0A4D0DD81828B63E00947C66 /* NSKSpriteNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSKSpriteNode.m; sourceTree = "<group>"; };
+		0A4D0DDA182A60E100947C66 /* bootstrap.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = bootstrap.js; sourceTree = "<group>"; };
+		0A632B4218289638004FCC78 /* NodeSpriteKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NodeSpriteKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A632B4518289638004FCC78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0A632B4718289638004FCC78 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0A632B4918289638004FCC78 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0A632B4D18289638004FCC78 /* NodeSpriteKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NodeSpriteKit-Info.plist"; sourceTree = "<group>"; };
+		0A632B4F18289638004FCC78 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0A632B5118289638004FCC78 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A632B5318289638004FCC78 /* NodeSpriteKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NodeSpriteKit-Prefix.pch"; sourceTree = "<group>"; };
+		0A632B5418289638004FCC78 /* NSKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSKAppDelegate.h; sourceTree = "<group>"; };
+		0A632B5518289638004FCC78 /* NSKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSKAppDelegate.m; sourceTree = "<group>"; };
+		0A632B5718289638004FCC78 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0A632B5D18289638004FCC78 /* NodeSpriteKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NodeSpriteKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A632B5E18289638004FCC78 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0A632B6618289638004FCC78 /* NodeSpriteKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NodeSpriteKitTests-Info.plist"; sourceTree = "<group>"; };
+		0A632B6818289638004FCC78 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0A632B6A18289638004FCC78 /* NodeSpriteKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NodeSpriteKitTests.m; sourceTree = "<group>"; };
+		0A632B75182898EE004FCC78 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		0A632B77182898FA004FCC78 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		0A632B7918289945004FCC78 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Spaceship.png; path = ../../MNSpriteKit/MNSpriteKit/Spaceship.png; sourceTree = "<group>"; };
+		0A632B7C1828997C004FCC78 /* NSKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSKViewController.h; sourceTree = "<group>"; };
+		0A632B7D1828997C004FCC78 /* NSKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSKViewController.m; sourceTree = "<group>"; };
+		0A632B7F18289D40004FCC78 /* gamebundle.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = gamebundle.js; sourceTree = "<group>"; };
+		0A632B8218289F40004FCC78 /* NSKConsole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSKConsole.h; sourceTree = "<group>"; };
+		0A632B8318289F40004FCC78 /* NSKConsole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSKConsole.m; sourceTree = "<group>"; };
+		0A632B871828A5A7004FCC78 /* NSKScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSKScene.h; sourceTree = "<group>"; };
+		0A632B881828A5A7004FCC78 /* NSKScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSKScene.m; sourceTree = "<group>"; };
+		966727F9D54248F48500C790 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		BF07F4AA9AEB4B29AF26A51F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A632B3F18289638004FCC78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A632B78182898FA004FCC78 /* JavaScriptCore.framework in Frameworks */,
+				0A632B76182898EE004FCC78 /* SpriteKit.framework in Frameworks */,
+				0A632B4818289638004FCC78 /* CoreGraphics.framework in Frameworks */,
+				0A632B4A18289638004FCC78 /* UIKit.framework in Frameworks */,
+				0A632B4618289638004FCC78 /* Foundation.framework in Frameworks */,
+				47B6B5FA594D47ACAF70AA10 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A632B5A18289638004FCC78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A632B5F18289638004FCC78 /* XCTest.framework in Frameworks */,
+				0A632B6118289638004FCC78 /* UIKit.framework in Frameworks */,
+				0A632B6018289638004FCC78 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A632B3918289637004FCC78 = {
+			isa = PBXGroup;
+			children = (
+				0A632B4B18289638004FCC78 /* NodeSpriteKit */,
+				0A632B6418289638004FCC78 /* NodeSpriteKitTests */,
+				0A632B4418289638004FCC78 /* Frameworks */,
+				0A632B4318289638004FCC78 /* Products */,
+				966727F9D54248F48500C790 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		0A632B4318289638004FCC78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A632B4218289638004FCC78 /* NodeSpriteKit.app */,
+				0A632B5D18289638004FCC78 /* NodeSpriteKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A632B4418289638004FCC78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A632B77182898FA004FCC78 /* JavaScriptCore.framework */,
+				0A632B75182898EE004FCC78 /* SpriteKit.framework */,
+				0A632B4518289638004FCC78 /* Foundation.framework */,
+				0A632B4718289638004FCC78 /* CoreGraphics.framework */,
+				0A632B4918289638004FCC78 /* UIKit.framework */,
+				0A632B5E18289638004FCC78 /* XCTest.framework */,
+				BF07F4AA9AEB4B29AF26A51F /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0A632B4B18289638004FCC78 /* NodeSpriteKit */ = {
+			isa = PBXGroup;
+			children = (
+				0A632B7B1828994C004FCC78 /* Test Game */,
+				0A632B7418289852004FCC78 /* Framework */,
+				0A632B5718289638004FCC78 /* Images.xcassets */,
+				0A632B4C18289638004FCC78 /* Supporting Files */,
+			);
+			path = NodeSpriteKit;
+			sourceTree = "<group>";
+		};
+		0A632B4C18289638004FCC78 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A632B4D18289638004FCC78 /* NodeSpriteKit-Info.plist */,
+				0A632B4E18289638004FCC78 /* InfoPlist.strings */,
+				0A632B5118289638004FCC78 /* main.m */,
+				0A632B5318289638004FCC78 /* NodeSpriteKit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A632B6418289638004FCC78 /* NodeSpriteKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A632B6A18289638004FCC78 /* NodeSpriteKitTests.m */,
+				0A632B6518289638004FCC78 /* Supporting Files */,
+			);
+			path = NodeSpriteKitTests;
+			sourceTree = "<group>";
+		};
+		0A632B6518289638004FCC78 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A632B6618289638004FCC78 /* NodeSpriteKitTests-Info.plist */,
+				0A632B6718289638004FCC78 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A632B7418289852004FCC78 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				0A632B8118289F0F004FCC78 /* Exports */,
+				0A632B7C1828997C004FCC78 /* NSKViewController.h */,
+				0A632B7D1828997C004FCC78 /* NSKViewController.m */,
+				0A4D0DD11828AF7B00947C66 /* NSKUtils.h */,
+				0A4D0DD21828AF7B00947C66 /* NSKUtils.m */,
+				0A4D0DDA182A60E100947C66 /* bootstrap.js */,
+			);
+			name = Framework;
+			path = NodeSpriteKit/Framework;
+			sourceTree = SOURCE_ROOT;
+		};
+		0A632B7B1828994C004FCC78 /* Test Game */ = {
+			isa = PBXGroup;
+			children = (
+				0A632B7F18289D40004FCC78 /* gamebundle.js */,
+				0A632B5418289638004FCC78 /* NSKAppDelegate.h */,
+				0A632B5518289638004FCC78 /* NSKAppDelegate.m */,
+				0A632B7918289945004FCC78 /* Spaceship.png */,
+			);
+			name = "Test Game";
+			sourceTree = "<group>";
+		};
+		0A632B8118289F0F004FCC78 /* Exports */ = {
+			isa = PBXGroup;
+			children = (
+				0A632B8218289F40004FCC78 /* NSKConsole.h */,
+				0A632B8318289F40004FCC78 /* NSKConsole.m */,
+				0A632B871828A5A7004FCC78 /* NSKScene.h */,
+				0A632B881828A5A7004FCC78 /* NSKScene.m */,
+				0A4D0DD41828B13400947C66 /* NSKLabelNode.h */,
+				0A4D0DD51828B13400947C66 /* NSKLabelNode.m */,
+				0A4D0DD71828B63E00947C66 /* NSKSpriteNode.h */,
+				0A4D0DD81828B63E00947C66 /* NSKSpriteNode.m */,
+			);
+			name = Exports;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A632B4118289638004FCC78 /* NodeSpriteKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A632B6E18289638004FCC78 /* Build configuration list for PBXNativeTarget "NodeSpriteKit" */;
+			buildPhases = (
+				F09B1C3091F74B78839A33F0 /* Check Pods Manifest.lock */,
+				0A632B3E18289638004FCC78 /* Sources */,
+				0A632B3F18289638004FCC78 /* Frameworks */,
+				0A632B4018289638004FCC78 /* Resources */,
+				B64BB130B2EB4C9CA10F40E7 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NodeSpriteKit;
+			productName = NodeSpriteKit;
+			productReference = 0A632B4218289638004FCC78 /* NodeSpriteKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A632B5C18289638004FCC78 /* NodeSpriteKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A632B7118289638004FCC78 /* Build configuration list for PBXNativeTarget "NodeSpriteKitTests" */;
+			buildPhases = (
+				0A632B5918289638004FCC78 /* Sources */,
+				0A632B5A18289638004FCC78 /* Frameworks */,
+				0A632B5B18289638004FCC78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A632B6318289638004FCC78 /* PBXTargetDependency */,
+			);
+			name = NodeSpriteKitTests;
+			productName = NodeSpriteKitTests;
+			productReference = 0A632B5D18289638004FCC78 /* NodeSpriteKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A632B3A18289637004FCC78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NSK;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Kevin Whinnery";
+				TargetAttributes = {
+					0A632B5C18289638004FCC78 = {
+						TestTargetID = 0A632B4118289638004FCC78;
+					};
+				};
+			};
+			buildConfigurationList = 0A632B3D18289637004FCC78 /* Build configuration list for PBXProject "NodeSpriteKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0A632B3918289637004FCC78;
+			productRefGroup = 0A632B4318289638004FCC78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A632B4118289638004FCC78 /* NodeSpriteKit */,
+				0A632B5C18289638004FCC78 /* NodeSpriteKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A632B4018289638004FCC78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A4D0DDC182A60FB00947C66 /* bootstrap.js in Resources */,
+				0A632B861828A3C3004FCC78 /* gamebundle.js in Resources */,
+				0A632B5018289638004FCC78 /* InfoPlist.strings in Resources */,
+				0A632B7A18289945004FCC78 /* Spaceship.png in Resources */,
+				0A632B5818289638004FCC78 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A632B5B18289638004FCC78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A632B6918289638004FCC78 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B64BB130B2EB4C9CA10F40E7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F09B1C3091F74B78839A33F0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A632B3E18289638004FCC78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A632B891828A5A7004FCC78 /* NSKScene.m in Sources */,
+				0A632B5218289638004FCC78 /* main.m in Sources */,
+				0A632B7E1828997C004FCC78 /* NSKViewController.m in Sources */,
+				0A4D0DD91828B63E00947C66 /* NSKSpriteNode.m in Sources */,
+				0A632B5618289638004FCC78 /* NSKAppDelegate.m in Sources */,
+				0A4D0DD61828B13400947C66 /* NSKLabelNode.m in Sources */,
+				0A4D0DD31828AF7B00947C66 /* NSKUtils.m in Sources */,
+				0A632B8418289F40004FCC78 /* NSKConsole.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A632B5918289638004FCC78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A632B6B18289638004FCC78 /* NodeSpriteKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A632B6318289638004FCC78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A632B4118289638004FCC78 /* NodeSpriteKit */;
+			targetProxy = 0A632B6218289638004FCC78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0A632B4E18289638004FCC78 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A632B4F18289638004FCC78 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0A632B6718289638004FCC78 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A632B6818289638004FCC78 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A632B6C18289638004FCC78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A632B6D18289638004FCC78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A632B6F18289638004FCC78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 966727F9D54248F48500C790 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NodeSpriteKit/NodeSpriteKit-Prefix.pch";
+				INFOPLIST_FILE = "NodeSpriteKit/NodeSpriteKit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0A632B7018289638004FCC78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 966727F9D54248F48500C790 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NodeSpriteKit/NodeSpriteKit-Prefix.pch";
+				INFOPLIST_FILE = "NodeSpriteKit/NodeSpriteKit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0A632B7218289638004FCC78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NodeSpriteKit.app/NodeSpriteKit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NodeSpriteKit/NodeSpriteKit-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NodeSpriteKitTests/NodeSpriteKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0A632B7318289638004FCC78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NodeSpriteKit.app/NodeSpriteKit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NodeSpriteKit/NodeSpriteKit-Prefix.pch";
+				INFOPLIST_FILE = "NodeSpriteKitTests/NodeSpriteKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A632B3D18289637004FCC78 /* Build configuration list for PBXProject "NodeSpriteKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A632B6C18289638004FCC78 /* Debug */,
+				0A632B6D18289638004FCC78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A632B6E18289638004FCC78 /* Build configuration list for PBXNativeTarget "NodeSpriteKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A632B6F18289638004FCC78 /* Debug */,
+				0A632B7018289638004FCC78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A632B7118289638004FCC78 /* Build configuration list for PBXNativeTarget "NodeSpriteKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A632B7218289638004FCC78 /* Debug */,
+				0A632B7318289638004FCC78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A632B3A18289637004FCC78 /* Project object */;
+}
