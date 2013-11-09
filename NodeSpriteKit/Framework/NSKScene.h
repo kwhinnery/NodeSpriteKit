@@ -24,6 +24,20 @@
 @property (nonatomic) JSContext *context;
 
 // Native only interface
--(void)fireEvent:(NSDictionary*)data;
+-(void)touchesBegan:(NSSet *)touches
+          withEvent:(UIEvent *)event
+         withTarget:(SKNode*)target;
+
+-(void)touchesMoved:(NSSet *)touches
+          withEvent:(UIEvent *)event
+         withTarget:(SKNode*)target;
+
+-(void)touchesEnded:(NSSet *)touches
+          withEvent:(UIEvent *)event
+         withTarget:(SKNode*)target;
+
+-(void)touchesCancelled:(NSSet *)touches
+              withEvent:(UIEvent *)event
+             withTarget:(SKNode*)target;
 
 @end

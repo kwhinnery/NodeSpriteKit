@@ -19,3 +19,6 @@ DerivedData
 
 #CocoaPods
 Pods
+
+# Generated node-spritekit bundle
+NodeSpriteKit/gamebundle.js

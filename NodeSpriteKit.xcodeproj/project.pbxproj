@@ -10,7 +10,7 @@
 		0A4D0DD31828AF7B00947C66 /* NSKUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4D0DD21828AF7B00947C66 /* NSKUtils.m */; };
 		0A4D0DD61828B13400947C66 /* NSKLabelNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4D0DD51828B13400947C66 /* NSKLabelNode.m */; };
 		0A4D0DD91828B63E00947C66 /* NSKSpriteNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4D0DD81828B63E00947C66 /* NSKSpriteNode.m */; };
-		0A4D0DDC182A60FB00947C66 /* bootstrap.js in Resources */ = {isa = PBXBuildFile; fileRef = 0A4D0DDA182A60E100947C66 /* bootstrap.js */; };
+		0A629BF7182E62CC00DAA535 /* SKNode+ManagedNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A629BF6182E62CC00DAA535 /* SKNode+ManagedNode.m */; };
 		0A632B4618289638004FCC78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A632B4518289638004FCC78 /* Foundation.framework */; };
 		0A632B4818289638004FCC78 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A632B4718289638004FCC78 /* CoreGraphics.framework */; };
 		0A632B4A18289638004FCC78 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A632B4918289638004FCC78 /* UIKit.framework */; };
@@ -50,7 +50,8 @@
 		0A4D0DD51828B13400947C66 /* NSKLabelNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSKLabelNode.m; sourceTree = "<group>"; };
 		0A4D0DD71828B63E00947C66 /* NSKSpriteNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSKSpriteNode.h; sourceTree = "<group>"; };
 		0A4D0DD81828B63E00947C66 /* NSKSpriteNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSKSpriteNode.m; sourceTree = "<group>"; };
-		0A4D0DDA182A60E100947C66 /* bootstrap.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = bootstrap.js; sourceTree = "<group>"; };
+		0A629BF5182E62CC00DAA535 /* SKNode+ManagedNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKNode+ManagedNode.h"; sourceTree = "<group>"; };
+		0A629BF6182E62CC00DAA535 /* SKNode+ManagedNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKNode+ManagedNode.m"; sourceTree = "<group>"; };
 		0A632B4218289638004FCC78 /* NodeSpriteKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NodeSpriteKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A632B4518289638004FCC78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0A632B4718289638004FCC78 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -190,7 +191,6 @@
 				0A632B7D1828997C004FCC78 /* NSKViewController.m */,
 				0A4D0DD11828AF7B00947C66 /* NSKUtils.h */,
 				0A4D0DD21828AF7B00947C66 /* NSKUtils.m */,
-				0A4D0DDA182A60E100947C66 /* bootstrap.js */,
 			);
 			name = Framework;
 			path = NodeSpriteKit/Framework;
@@ -218,6 +218,8 @@
 				0A4D0DD51828B13400947C66 /* NSKLabelNode.m */,
 				0A4D0DD71828B63E00947C66 /* NSKSpriteNode.h */,
 				0A4D0DD81828B63E00947C66 /* NSKSpriteNode.m */,
+				0A629BF5182E62CC00DAA535 /* SKNode+ManagedNode.h */,
+				0A629BF6182E62CC00DAA535 /* SKNode+ManagedNode.m */,
 			);
 			name = Exports;
 			sourceTree = "<group>";
@@ -300,7 +302,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A4D0DDC182A60FB00947C66 /* bootstrap.js in Resources */,
 				0A632B861828A3C3004FCC78 /* gamebundle.js in Resources */,
 				0A632B5018289638004FCC78 /* InfoPlist.strings in Resources */,
 				0A632B7A18289945004FCC78 /* Spaceship.png in Resources */,
@@ -358,6 +359,7 @@
 			files = (
 				0A632B891828A5A7004FCC78 /* NSKScene.m in Sources */,
 				0A632B5218289638004FCC78 /* main.m in Sources */,
+				0A629BF7182E62CC00DAA535 /* SKNode+ManagedNode.m in Sources */,
 				0A632B7E1828997C004FCC78 /* NSKViewController.m in Sources */,
 				0A4D0DD91828B63E00947C66 /* NSKSpriteNode.m in Sources */,
 				0A632B5618289638004FCC78 /* NSKAppDelegate.m in Sources */,
